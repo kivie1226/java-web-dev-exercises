@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
 
-        int r;
-        int A;
+        double r;
         double pi;
         Scanner input;
 
@@ -16,7 +15,8 @@ public class Area {
         System.out.println("What is the circle's raduis?");
         r = input.nextInt();
         input.close();
+        double A = Circle.getArea(r);
 
-        System.out.println("The area of a circle with a radius of " + r + " is " + (2 * pi * r));
+        System.out.println("The area of a circle with a radius of " + r + " is " + (A));
     }
 }
