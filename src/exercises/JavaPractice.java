@@ -6,6 +6,10 @@ public class JavaPractice {
 
         for (int i = 0; i < arrayNums.length; i++){
             System.out.println(arrayNums[i]);
+        } for (int i = 0; i< arrayNums.length; i++){
+            if (arrayNums[i] % 2 != 0) {
+                System.out.println(arrayNums[i]);
+            }
         }
     }
 }
